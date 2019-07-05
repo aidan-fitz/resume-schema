@@ -17,7 +17,8 @@
         },
         "image": {
           "type": "string",
-          "description": "URL (as per RFC 3986) to a image in JPEG or PNG format"
+          "description": "URL (as per RFC 3986) to a image in JPEG or PNG format",
+          "format": "uri"
         },
         "email": {
           "type": "string",
@@ -79,7 +80,8 @@
               },
               "url": {
                 "type": "string",
-                "description": "e.g. http://twitter.example.com/neutralthoughts"
+                "description": "e.g. http://twitter.example.com/neutralthoughts",
+                "format": "uri"
               }
             }
           }
@@ -281,7 +283,8 @@
           },
           "url": {
             "type": "string",
-            "description": "e.g. http://www.computer.org.example.com/csdl/mags/co/1996/10/rx069-abs.html"
+            "description": "e.g. http://www.computer.org.example.com/csdl/mags/co/1996/10/rx069-abs.html",
+            "format": "uri"
           },
           "summary": {
             "type": "string",
@@ -424,8 +427,8 @@
           },
           "url": {
             "type": "string",
-            "format":"uri",
-            "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html"
+            "description": "e.g. http://www.computer.org/csdl/mags/co/1996/10/rx069-abs.html",
+            "format": "uri"
           },
           "roles":{
             "type":"array",
@@ -454,7 +457,8 @@
       "properties": {
         "canonical": {
           "type": "string",
-          "description": "URL (as per RFC 3986) to latest version of this document"
+          "description": "URL (as per RFC 3986) to latest version of this document",
+          "format": "uri"
         },
         "version": {
           "type": "string",
